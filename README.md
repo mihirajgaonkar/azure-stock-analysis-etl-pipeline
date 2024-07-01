@@ -50,7 +50,7 @@ Additionally it updates the daily top gainers, loosers and sectorial heatmap of 
 - **52-Week Range**: Indicates the percentage change of the stock price within the last year relative to its high and low.
 
 ## Future improvements
-- you can implement a streaming pipeline instead of batch processing every 30 minutes, since I did not have the time nor the funds to implement a streaming pipeline, I went with batch processing, However you can use azure stream analytics in this usecase
+- you can implement a streaming pipeline instead of batch processing every 30 minutes, since I did not have the time nor the funds to implement a streaming pipeline, I went with batch processing, However you can use azure stream analytics in this usecase, batch processing is easier to maintain, cost effective and less prone to break
 - Create heat map for sector and stocks for monthly changes as there will be volatility in the coming months due to elections
 - Use azure managed identity to provide necessary access and permissions and create specific roles 
 - Do not hard code the connect strings and keys of services in the code, use SAS for limited time access or define RBAC policies 
