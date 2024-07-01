@@ -36,7 +36,7 @@ Additionally it updates the daily top gainers, loosers and sectorial heatmap of 
 
 ![alt text](https://github.com/mihirajgaonkar/azure-stock-analysis-etl-pipeline/blob/main/datamodel_powerbi.png)
 
-##Fundamental Metrics Explained
+## Fundamental Metrics Explained
 - **Forward EPS _Earnings per share_**: Indicates expected profitability; higher EPS suggests better profitability.
 - **Forward P/E _Price to Earnings ratio_**: Compares a company's current share price to its forward earnings per share. A lower P/E ratio may indicate that the stock is undervalued. Note that each industry has it's own P/E value and stocks from different industries cannot be compared based on their individual P/E value 
 - **PEG Ratio _Price/Earnings to growth ratio_**: If PEG is < 1 then it is typically considered a good stock 
@@ -49,7 +49,8 @@ Additionally it updates the daily top gainers, loosers and sectorial heatmap of 
 - **Beta**: Reflects stock volatility relative to the overall market.
 - **52-Week Range**: Indicates the percentage change of the stock price within the last year relative to its high and low.
 
-##Future improvements:
+## Future improvements
+- you can implement a streaming pipeline instead of batch processing every 30 minutes, since I did not have the time nor the funds to implement a streaming pipeline, I went with batch processing, However you can use azure stream analytics in this usecase
 - Create heat map for sector and stocks for monthly changes as there will be volatility in the coming months due to elections
 - Use azure managed identity to provide necessary access and permissions and create specific roles 
 - Do not hard code the connect strings and keys of services in the code, use SAS for limited time access or define RBAC policies 
