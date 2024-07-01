@@ -28,13 +28,13 @@ Additionally it updates the daily top gainers, loosers and sectorial heatmap of 
 ### Trigger Setup
 - **Automation**: Triggers in Synapse Analytics are configured for both notebooks. One updates every 30 minutes, and the other activates when new JSON data is added.
 
-![alt text](tech architecture)
+![alt text](https://github.com/mihirajgaonkar/azure-stock-analysis-etl-pipeline/blob/main/azure%20etl%20diagram.drawio.png)
 
 ### Data Visualization
 - **Power BI Integration**: Connects to the transformed data container using Power BI for advanced analytics and visualization creation.
 - **Visualization Demo**: [click here](https://drive.google.com/file/d/1RKv-SI0lG9h2biU72lZQkIT1JNQuqZl5/view?usp=sharing)
 
-![alt text](data model)
+![alt text](https://github.com/mihirajgaonkar/azure-stock-analysis-etl-pipeline/blob/main/datamodel_powerbi.png)
 
 ##Fundamental Metrics Explained
 - **Forward EPS _Earnings per share_**: Indicates expected profitability; higher EPS suggests better profitability.
